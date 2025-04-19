@@ -4,6 +4,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { SiGmail } from "react-icons/si";
 
+import { TbBrandCSharp } from "react-icons/tb";
+import { DiDotnet } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiReact } from "react-icons/si";
@@ -23,7 +25,7 @@ function Home() {
             {/* <span className="text-red-700 font-bold">Frontend Developer</span> */}
             <ReactTyped
           className="text-red-600 font-bold"
-          strings={["Frontend Developer", "Web Developer", "Programmer", "Video Editor"]}
+          strings={["DOT NET Developer","Frontend Developer", "Web Developer", "Programmer", "Video Editor"]}
           typeSpeed={40}
           backSpeed={50}
           loop={true}
@@ -57,8 +59,8 @@ function Home() {
             <div className="space-y-2">
             <h1 className="font-bold ">Currently working on</h1>
               <ul className="flex space-x-5">
-              <li><SiMongodb className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
-              <li><SiExpress className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
+              <li><DiDotnet  className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
+              <li><TbBrandCSharp className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
               <li>< SiReact className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
               <li><IoLogoNodejs className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
               </ul>
