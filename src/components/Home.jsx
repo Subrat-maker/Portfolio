@@ -10,6 +10,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io5";
+import { RiJavascriptLine } from "react-icons/ri";
 
 import { ReactTyped,Typed } from "react-typed";
 
@@ -25,7 +26,7 @@ function Home() {
             {/* <span className="text-red-700 font-bold">Frontend Developer</span> */}
             <ReactTyped
           className="text-red-600 font-bold"
-          strings={["DOT NET Developer","Frontend Developer", "Web Developer", "Programmer", "Video Editor"]}
+          strings={["DOT NET Developer","FullStack Developer","Frontend Developer", "Web Developer", "Programmer", "Video Editor"]}
           typeSpeed={40}
           backSpeed={50}
           loop={true}
@@ -33,7 +34,10 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-            I am a passionate frontend developer with a robust command of the MERN stack, dedicated to creating seamless and intuitive user experiences. With expertise in React, and Node.js, I excel at developing dynamic and responsive web applications that meet the highest standards of performance and usability. My background in frontend development allows me to craft visually appealing interfaces, while my proficiency in the MERN stack ensures that my solutions are both efficient and scalable. Committed to continuous learning and innovation, I strive to stay at the forefront of web development technologies, delivering exceptional results in every project.
+            I am a passionate <strong>.NET Developer</strong> with hands-on experience building web applications using ASP.NET, C#, 
+and JavaScript. Skilled in OOP, ADO.NET, and RESTful API integration. Proficient in front-end frameworks like React and 
+Angular. Solid understanding of MS SQL Server. Passionate about writing clean, maintainable code. With a good communication and analytical skills i am ready to contribute 
+to fast-paced development teams.
             </p>
             <br />
             {/* social media icons */}
@@ -62,7 +66,7 @@ function Home() {
               <li><DiDotnet  className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
               <li><TbBrandCSharp className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
               <li>< SiReact className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
-              <li><IoLogoNodejs className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
+              <li><RiJavascriptLine  className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]"/></li>
               </ul>
             </div>
         </div>
